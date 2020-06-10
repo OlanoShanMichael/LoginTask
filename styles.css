@@ -1,0 +1,152 @@
+@font-face{
+    src: url('fonts/FELIXTI.TTF');
+    font-family: felix;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: sans-serif;
+}
+.nemesis{
+    text-shadow: 2px 2px black;
+    color: #fdefb2;
+    font-family: felix;
+}
+.slogan{
+    text-shadow: 1px 1px white;
+    color: black;
+    font-style: bold;
+    font-style: italic;
+    font-family: felix;
+}
+.jyrald{
+    font: 120px;
+    color:black;
+    font-family: felix;
+    font-style: italic;
+}
+.jumbotron-head{
+    background: url('img/florencebymills.jpg') no-repeat;
+    text-align: center;
+}
+.jumbotron-head p{
+    font-size: 25px;
+}
+.jumbotron-head a{
+    font-family: felix;
+}
+
+.bottom-img{
+    width: 100%;
+}
+
+/************************LOG IN FORM*************************/
+.loginname{
+    font-style: bold;
+    font-size: 25px;
+    font-family: felix;
+}
+
+.login_form{
+    padding: 0 40px;
+}
+
+.login_text{
+    padding-top: 10px;
+    font-size: 15px;
+    color:black;
+}
+.login_text2{
+    margin-top: 25px;
+    font-size: 15px;
+    color:black;
+}
+input[type=text]{
+    height: 30px;
+    width: 250px;
+    padding: 0 5px;
+    font-size: 15px;
+    outline: none;
+    border: 1px solid silver;
+}
+input[type=password]{
+    height: 30px;
+    width: 250px;
+    padding: 0 5px;
+    font-size: 15px;
+    outline: none;
+    border: 1px solid silver;
+}
+
+input[type=button]{
+    margin: 30px 0 30px 0;
+    height: 40px;
+    width: 250px;
+    font-size: 20px;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-family: felix;
+    background-color:  #9e9054;
+    transition: .5s;
+}
+
+input[type=button]:hover{
+    background-color: #847948;
+}
+
+/******************************LOGIN FORM END**************/
+#goals{
+    padding: 75px 0; 
+}
+.goals-img{
+    border-radius: 75px;
+    max-width: 150px;
+    max-height: 150px;
+    margin-top: 20px;
+}
+.goals{
+    padding: 20px;
+}
+
+.goals h4{
+    padding: 5px;
+    margin-top: 25px;  
+}
+.goals p{
+    font-style: italic;
+    padding: 5px;
+    margin-top:10px;  
+}
+.jumbotron-product{
+    background: url('img/fentybeauty_20200304_123700_0.jpg');
+    text-align: center;
+}
+.foundation{
+    color: #9e9054;
+    font-family: felix;
+}
+.foundation h1{
+    font-size: 300%;
+}
+.foundation-line p{
+    text-shadow: 1px 1px white;
+    font-style: bold;
+}
+.footer-box{
+    text-align: center;
+    padding: 20px;
+}
+
+.icons-img{
+    max-width: 40px;
+    max-height: 40px;
+    margin: 10px 15px 10px 15px
+}
+
+

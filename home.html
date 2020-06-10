@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NEMESIS</title>
+    <!--------------LINKING THE JS---------------------------->
+    <script src="validation.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#">
+                <img src="img/goldnemesis.png" width="140" height="30" class="d-inline-block align-top" alt=""> 
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ml-auto text-right">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#home">HOME</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="gallery.html">GALLERY</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="portfolio.html">PORTFOLIO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">CONTACT</a>
+                </li>    
+              </ul>
+            </div>
+          </nav>
+        <div class="jumbotron bg-transparent jumbotron-head">
+            <div class="nemesis">
+              <h1 class="display-4">NEMESIS</h1>
+            </div>
+            <h2 class="jyrald">BY JYRALD</h2>
+            <div class="slogan">
+              <p class="lead"><b><br>flex that natural glow</b> </p>
+            </div>
+            <br><br><br>
+
+        <!-------------------------------------LOG IN----------------------->
+            <div class="login">
+              <p class="loginname">WELCOME</p>
+              <p id="validTop"></p>
+              <form class="login_form" method="post" name="form">
+                <div class="login_text">USERNAME</div>
+                <input type="text" name="username" required>
+                <div class="login_text2">PASSWORD</div>
+                <input type="password" name="password" required>
+                <br>
+                <input type="button" value="LOGIN" id="submit" onclick="validate()"></input>
+                <p id="validBot"></p>
+              </form>
+            </div>
+        <!-------------------------------------LOGIN FORM END--------------->   
+            
+        </div>
+         <section id="goals">
+         <div class="container">
+             <div class="row text-center">
+                <div class="col-md-4 goals">
+                <img src="img/fentybeauty_20200304_124514_0.jpg" class="goals-img">
+                  <h4>INCLUSION IS THE GOAL</h4>
+                  <p>In the world of diversity, it's useless without inclusivity</p>
+                </div>
+                <div class="col-md-4 goals">
+                <img src="img/florencebymills_20200304_123235_0.jpg" class="goals-img">
+                  <h4>SERVING FOR THE PUBLIC</h4>
+                  <p>We are a brand who listens to the consumers.</p>
+                </div>
+                <div class="col-md-4 goals">
+                  <img src="img/comment belo.jpg" class="goals-img">
+                  <h4>THE AFFORDABLE ROUTE</h4>
+                  <p>We want you to enjoy things without sacrificing your schmoney.</p>
+                </div>
+             </div>
+        </section>
+        <section class="product">       
+          <div class="jumbotron bg-transparent jumbotron-product">
+            <div class="foundation">
+              <h1 class="display-4">THE AIR FOUNDATION</h1>
+            </div>
+            <div class="foundation-line">
+              <p class="lead"><b>the new weightless foundation with full coverage. Only on Shopee.</b></p>
+            </div>
+          </div>
+        </section>
+        <footer class="page-footer font-small gray darken-3">
+                <div class="container">
+                    <div class="row ">
+                        <div class="col-md-12 py-5 footer-box">
+                          <div class="mb-5 flex-center">
+                            <p class="disclaimer"><b>DISCLAIMER</b><br> the pictures of the page belongs to their rightful owners. for educational purposes only.</p>
+                            <h5 class="text-uppercase font-weight-bold text-center"><br><br>FOLLOW US</h5>
+                            <a class="fb-ic" href="https://www.facebook.com/darylsimene.25" target="_blank">
+                              <img src="img/facebook.png" class="icons-img">
+                            </a>
+                            <a class="ig-ic" href="https://www.instagram.com/jyralddeehan" target="_blank">
+                              <img src="img/instagram.png" class="icons-img">
+                            </a>
+                            <a class="yt-ic" href="https://www.youtube.com/channel/UCNm7OQr3zref30vtHTepR-g" target="_blank">
+                              <img src="img/youtube.png" class="icons-img">
+                            </a>
+                            <a class="gh-ic" href="https://github.com/johndarylsimene" target="_blank">
+                              <img src="img/github.png" class="icons-img">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+          </footer>
+         </div>
+  </div>
+        
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
